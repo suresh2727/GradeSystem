@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <p>Class Result Grade System Go to Console to check the grade</p>
+    <script>
+        let number = prompt("Enter a number to chech wether it is a multiple of 5");
+        if (number >= 90 && number <= 100) {
+            console.log(number, "Grade A");
+        }
+        else if (number >= 70 && number <= 89) {
+            console.log(number, "Grade B");
+        }
+        else if (number >= 60 && number <= 69) {
+            console.log(number, "Grade C")
+        }
+        else if (number >= 50 && number <= 59) {
+            console.log(number, "Grade D");
+        }
+        else if (number >= 0 && number <= 49) {
+            console.log(number, "Grade F");
+        }
+        else {
+            alert("Enter number less than 100")
+        }
+    </script>
+</body>
+
+</html>
